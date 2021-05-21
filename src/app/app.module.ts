@@ -8,6 +8,7 @@ import { HelpComponent } from './help/help.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { LoginComponent } from './login/login.component';
 import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { RouterModule } from '@angular/router';
     HelpComponent,
     AboutusComponent,
     LoginComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
