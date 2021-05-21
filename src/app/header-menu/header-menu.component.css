@@ -1,0 +1,11 @@
+ul {
+  list-style-type: none;
+  float: inline;
+}
+
+li {
+  float: left;
+  padding:10px;
+  color:blue;
+  background-color: #dddddd;
+}

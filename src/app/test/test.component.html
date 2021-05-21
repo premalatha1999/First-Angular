@@ -1,0 +1,26 @@
+<div id="logo_div">
+    <div id="logo_row">
+        <span>
+            <img src="assets/images.png"/>
+            <ul id="menu-list">
+                <button (click)="onHelpPress()">Help</button>
+                <button (click)="onAboutPress()">Aboutus</button>
+                <button (click)="onLoginPress()">Login</button>
+            </ul>
+        </span>
+    </div>
+</div>
+<div *ngIf="common">
+    <p>This is eee</p>
+</div>
+<div *ngIf="help">
+    <app-help></app-help>    
+</div>
+<div *ngIf="aboutus">
+    <app-aboutus></app-aboutus>
+</div>
+<div *ngIf="login">
+    <app-login></app-login>
+</div>
+ 
+    
